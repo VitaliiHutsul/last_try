@@ -2,13 +2,13 @@
 lock "3.11.0"
 
 set :application, "manhattan"
-set :repo_url, "git@gitlab.com:webmil/manhattan.git"
+set :repo_url, "git@github.com:VitaliiHutsul/last_try.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/home/deploy/projects/manhattan"
+set :deploy_to, "/home/rails/last_try"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
