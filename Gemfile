@@ -29,7 +29,8 @@ gem 'kaminari-mongoid'
 gem "non-stupid-digest-assets"
 
 gem 'carrierwave-mongoid', require: 'carrierwave/mongoid'
-gem 'i18n_backend_mongoid', github: 'webmil/i18n_backend_mongoid'
+#gem 'i18n_backend_mongoid', github: 'webmil/i18n_backend_mongoid'
+gem 'i18n_backend_mongoid'
 gem 'mini_magick'
 gem 'sorcery', '0.9.1'
 
@@ -80,3 +81,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :production do
   gem 'unicorn', '~> 5.2'
 end
+gem 'capistrano-rvm'

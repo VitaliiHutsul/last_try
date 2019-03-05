@@ -1,3 +1,9 @@
+set :rails_env, 'production'
+set :domain, "104.248.89.89"
+set :application, "last_try"
+set :deploy_to, '/home/deploy/last_try'
+role :web, '104.248.89.89', user: 'deploy'
+
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
@@ -60,4 +66,4 @@
 #     # password: "please use keys"
 #   }
 
-server '142.93.236.183', user: 'deploy', roles: %w{app db web}
+#server '142.93.236.183', user: 'deploy', roles: %w{app db web}
