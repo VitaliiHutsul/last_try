@@ -314,6 +314,7 @@ PLATFORMS
 DEPENDENCIES
   autoprefixer-rails
   bower-rails
+  bson
   bson_ext
   byebug
   capistrano (~> 3.7, >= 3.7.1)
