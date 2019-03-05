@@ -17,7 +17,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 
 gem 'mongoid', '~> 6.0.0.rc0'
-
+gem 'bson_ext'
 # rails admin
 # gem 'remotipart', github: 'mshibuya/remotipart'
 gem 'rails_admin', '~> 1.1'
