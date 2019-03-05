@@ -1,10 +1,10 @@
-lock '3.7.1'
+lock '3.11.0'
 set :application, 'last_try'
 set :branch, "master" 
 set :repo_url, 'git@github.com:VitaliiHutsul/last_try'
 set :deploy_to, "/home/deploy/last_try" 
 
-set :linked_files, %w{config/database.yml}
+set :linked_files, %w{config/mongoid.yml}
 set :linked_dirs, %w{bin log pids system tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads public/assets}
 
 namespace :deploy do
