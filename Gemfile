@@ -49,7 +49,7 @@ gem 'typhoeus'
 
 
 # Add this if you're using rbenv
-gem 'capistrano-rbenv', '~> 2.1'
+#gem 'capistrano-rbenv', '~> 2.1'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
