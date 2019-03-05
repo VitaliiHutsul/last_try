@@ -144,7 +144,7 @@ test:
 production:
   clients:
     default:
-      database: test
+      database: manhattan_production 
       hosts:
-        - 164.132.49.9:27017
+        - 127.0.0.1:27017
 
