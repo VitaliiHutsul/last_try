@@ -1,8 +1,10 @@
 set :rails_env, 'production'
-set :domain, "104.248.89.89"
+#set :domain, "104.248.89.89"
+set :domain, "195.201.152.59"
 set :application, "last_try"
 set :deploy_to, '/home/deploy/last_try'
-role :web, '104.248.89.89', user: 'deploy'
+#role :web, '104.248.89.89', user: 'deploy'
+role :web, '195.201.152.59', user: 'deploy'
 
 # server-based syntax
 # ======================
